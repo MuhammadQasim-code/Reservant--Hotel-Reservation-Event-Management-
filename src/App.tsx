@@ -1,10 +1,9 @@
-
 import './App.css'
-
+import AppRouter from './config/appRouter'
 function App() {
-  return(
-    <h1>Hello World</h1>
-  )
+  return<>
+    <AppRouter/>
+  </>
 }
 
 export default App
